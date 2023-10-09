@@ -1,0 +1,56 @@
+.board {
+  margin-top:12px ;
+  width: 90%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  overflow: auto;
+}
+
+.board__section {
+  width: 400px;
+  background-color: #383838;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.board__section ~ .board__section {
+  margin-left: 10px;
+}
+
+.board__section__title {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 10px 0 20px;
+}
+
+.board__content {
+  color: white;
+  margin-top: 10px;
+}
+.dialog_container{
+  width: 500px;
+  height: 300px;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.close_container{
+  position: relative;
+  // padding: 8rem;
+  width: 100%;
+}
+.close_icon{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+}
+.add_button_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
